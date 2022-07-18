@@ -159,7 +159,7 @@ body {
 @media (max-width: 767px) {
     .access .access-content .box form input[type="email"] {
         margin-bottom: 15px;
-        width: 321px;
+         width: 311px;
         outline: none;
         padding: 10px;
     }
@@ -201,6 +201,7 @@ body {
 
 .access .access-content .image img {
     max-width: 100%;
+     transform: translateY(27px);
 }
 
 /* end lnding */
@@ -302,6 +303,7 @@ body {
 
 .productive .content-productive .image img {
     max-width: 100%;
+        transform: translateY(-20px);
 }
 
 .productive .content-productive .text .team {
@@ -314,14 +316,14 @@ body {
 
 @media (max-width: 767px) {
     .productive .content-productive .text .team {
-        width: 318px;
-        text-align: left;
-        box-sizing: border-box;
-        position: relative;
-        left: 17px;
-        border-radius: 3px;
-        height: 210px;
-        transform: translateX(13px);
+     width: 270px;
+    text-align: left;
+    box-sizing: border-box;
+    position: relative;
+    left: 17px;
+    border-radius: 3px;
+    height: 200px;
+    transform: translateX(13px);
     }
 }
 
@@ -348,7 +350,7 @@ body {
 
 @media (max-width: 767px) {
     .productive .content-productive .text .team .improve p {
-        font-size: 12px;
+          font-size: 10px !important;
     }
 }
 
