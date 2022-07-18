@@ -557,6 +557,7 @@ body {
 .footer .content .col .box .text p.number {
     margin-left: 15px;
     margin-bottom: 17px;
+    font-family: sans-serif;
 }
 
 @media (max-width:767px) {
