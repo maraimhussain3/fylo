@@ -624,7 +624,7 @@ body {
 @media (max-width:767px) {
     .footer .content .col .box .social {
         text-align: center;
-        transform: translateX(-22px);
+            transform: translateX(-29px);
     }
 }
 
