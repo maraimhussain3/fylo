@@ -321,6 +321,7 @@ body {
         left: 17px;
         border-radius: 3px;
         height: 210px;
+        transform: translateX(13px);
     }
 }
 
@@ -621,6 +622,7 @@ body {
 @media (max-width:767px) {
     .footer .content .col .box .social {
         text-align: center;
+        transform: translateX(-22px);
     }
 }
 
