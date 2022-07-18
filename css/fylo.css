@@ -365,7 +365,7 @@ body {
         justify-content: center;
         align-items: center;
         margin-top: 7px;
-        margin-left: -67px;
+         margin-left: -40px;
     }
 }
 
@@ -528,6 +528,13 @@ body {
     width: 120px;
 }
 
+@media (max-width:767px) {
+   .footer .content .col .box img.logo-footer {
+        width: 200px;
+    transform: translateY(-35px);
+    }
+
+
 .footer .content .col .box .text img.pho {
     position: relative;
     bottom: -26px;
@@ -542,7 +549,8 @@ body {
 
 @media (max-width:767px) {
     .footer .content .col .box .text {
-        margin-left: 25px;
+           margin-left: 25px;
+         margin-top: -20px;
     }
 }
 
